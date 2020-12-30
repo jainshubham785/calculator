@@ -29,5 +29,6 @@ function equals() {
 }
 
 function reset() {
-    document.querySelector("input").setAttribute("value", "");
+    var y = document.querySelector("input").getAttribute("value");
+    document.querySelector("input").setAttribute("value", y.slice(0, y.length - 1));
 }
