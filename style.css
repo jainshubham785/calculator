@@ -2,8 +2,8 @@ body {
     background-image: url("./1477298.jpg");
 }
 #calculator {
-    height: 400px;
-    width: 412px;
+    height: 480px;
+    width: 413px;
     margin: auto;
     margin-top: 100px;
     background-color: black;
@@ -15,7 +15,7 @@ body {
     height: 80px;
     opacity: 0.7;
     font-size: 38px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Hanalei Fill', cursive;
     text-align: right;
 }
 .btn {
@@ -23,11 +23,20 @@ body {
     height: 80px;
     opacity: 0.7;
     font-size: 40px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Hanalei Fill', cursive;
 }
-
+.btnEqual {
+    width: 413px;
+    height: 80px;
+    opacity: 0.7;
+    font-size: 40px;
+    font-family: 'Hanalei Fill', cursive;
+}
 .btn:hover {
-    background-color: rgb(61, 92, 92);
+    background-color : rgb(160, 160, 33);
+}
+.btnEqual:hover {
+    background-color: rgb(129, 199, 129);
 }
 #footer {
     text-align: center;
